@@ -124,4 +124,21 @@
 <img width="322" alt="axios" src="https://github.com/leedongdong2/springBootTest/assets/77323959/7bcf2f4c-c880-4f16-96c2-061b54493a94">
 <img width="327" alt="axios2" src="https://github.com/leedongdong2/springBootTest/assets/77323959/7725f34b-b443-4398-81f7-b6b8445964e1">
 <img width="72" alt="axios3" src="https://github.com/leedongdong2/springBootTest/assets/77323959/a2a467de-df8b-440c-9a5d-c0dd05dd1fcd">
-  
+
+8.react hook form (uesform)<br>
+-form을 보다 쉽게 관리하기 위한 react hook 라이브러리다.<br>
+-값의 변경, submit, 조회, 오류 검출 등의 기능을 상태 하나에 귀속되는 것이 아닌 form에 필요한 모든 상태를 
+useForm 한번으로 처리가 가능하다.
+-값의 변경 함수,올바른 값 체크 등에 필요한 반복되는 js를 줄여준다.
+<br>
+-필요한 기능들을 넣어 useform을 생성해준다.<br>
+-<img width="281" alt="userform" src="https://github.com/leedongdong2/reactJs/assets/77323959/9f26c1b4-6fce-4991-a240-96009bce22aa">
+<br>
+-{..register}를 사용하여 name,value,onChageEvent,정규식등을 간단하게 해결가능하게 해준다.<br>
+<img width="401" alt="userform2" src="https://github.com/leedongdong2/reactJs/assets/77323959/3025ecf6-de3d-456b-bac5-963ba8ad99c3">
+<br>
+-handleSubmit은 form을 submit 할 때 데이터를 핸들링 해주는 함수이다. <br>
+-form의 validation을 해서 올바르면 데이터를 넘기고 올바르지 않으면 error를 나타낸다.<br>
+-커스터마이징한 함수와 같이 쓸수도 잇다.<br>
+-기본값으로 쓰려면 handleSubmit(onValid, onInvalid)로 써주면된다.<br>
+<img width="373" alt="userform3" src="https://github.com/leedongdong2/reactJs/assets/77323959/d871ffec-ccb7-4b28-8004-ab134d857515">
